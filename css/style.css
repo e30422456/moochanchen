@@ -302,7 +302,7 @@ body,html {
 #bg{
 	width:100%;
 	overflow:hidden;
-	background:url(../img/bg.png) no-repeat center fixed;
+	background:url("img/bg.png") no-repeat center fixed;
 	background-size:60%;
 }
 main{
@@ -357,7 +357,7 @@ h2{
 	justify-content:center;
 }
 #about .col-md-2 a{
-	font-size:1.2em;
+	font-size:1em;
 	font-weight:600;
 	color:#333;
 }
@@ -405,9 +405,8 @@ footer{
 	background:rgba(255, 255, 255, .4);
 	display:flex;
 	align-items:center;
-	justify-content:center;
 	margin-top:60px;
-	padding:0 16px;
+	padding:0 30px;
 }
 
 @media (max-width:996px){
@@ -438,17 +437,24 @@ footer{
 	height:30vh;
  }
 }
+@media (max-width: 576px) {
+ #about .col-md-5, #about .col-md-6{
+	margin:auto 4%;
+ }
+ #bg{
+	background-size:100%;
+}
+}
 @media (max-height:450px){
  #header_right{
 	visibility:hidden;
  }
-
 }
 @media (max-width:360px){
  .flex-control-nav{
   bottom:-80px;
  }
-  #djs-slider img{
+ #djs-slider img{
 	height:20vh;
  }
 }
