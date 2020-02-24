@@ -357,7 +357,7 @@ h2{
 	justify-content:center;
 }
 #about .col-md-2 a{
-	font-size:1.2em;
+	font-size:1em;
 	font-weight:600;
 	color:#333;
 }
@@ -436,6 +436,11 @@ footer{
  }
  #djs-slider img{
 	height:30vh;
+ }
+}
+@media (max-width: 576px) {
+ #about .col-md-5, #about .col-md-6{
+	margin:auto 4%;
  }
 }
 @media (max-height:450px){
