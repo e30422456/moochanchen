@@ -441,6 +441,9 @@ footer{
  #about .col-md-5, #about .col-md-6{
 	margin:auto 4%;
  }
+ #bg{
+	background-size:100%;
+}
 }
 @media (max-height:450px){
  #header_right{
