@@ -193,18 +193,18 @@ body,html {
 /*go to top*/
 #go-top{
 	position: fixed;
-    height: 60px;
-    width: 60px;
-    bottom: 20px;
-    right: 16px;
+	height: 60px;
+	width: 60px;
+	bottom: 20px;
+	right: 16px;
 	background:rgba(255, 255, 255, .4);
 	border-radius:50%;
-    line-height: 22px;
-    font-size: 16px;
+	line-height: 22px;
+	font-size: 16px;
 	padding-top:6px;
-    cursor: pointer;
+	cursor: pointer;
 	text-align:center;
-    z-index: 10;
+	z-index: 10;
 	text-decoration:none;
 	color:#292929;
 }
@@ -302,7 +302,7 @@ body,html {
 #bg{
 	width:100%;
 	overflow:hidden;
-	background:url("img/bg.png") no-repeat center fixed;
+	background:url("../img/bg.png") no-repeat center fixed;
 	background-size:60%;
 }
 main{
@@ -438,8 +438,8 @@ footer{
  }
 }
 @media (max-width: 576px) {
- #about .col-md-5, #about .col-md-6{
-	margin:auto 4%;
+ #about .col-md-5, #about .col-md-6,#fashion .col-md-6{
+	margin:30px 3.4% auto 3.4%;
  }
  #bg{
 	background-size:100%;
@@ -452,7 +452,7 @@ footer{
 }
 @media (max-width:360px){
  .flex-control-nav{
-  bottom:-80px;
+	bottom:-80px;
  }
  #djs-slider img{
 	height:20vh;
