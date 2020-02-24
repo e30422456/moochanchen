@@ -452,7 +452,7 @@ footer{
 }
 @media (max-width:360px){
  .flex-control-nav{
-  bottom:-80px;
+	bottom:-80px;
  }
  #djs-slider img{
 	height:20vh;
