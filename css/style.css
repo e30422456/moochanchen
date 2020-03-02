@@ -9,6 +9,14 @@ body,html{
 	font-size:11px;
 	line-height:20px;
 }
+a{
+	text-decoration:none;
+	color:#000;
+}
+a:hover{
+	text-decoration:none;
+	color:#ff10f2;
+}
 
 /*button_container*/
 .button_container{
@@ -184,10 +192,6 @@ body,html{
 	margin-top:30px;
 	padding-left:26px;
 }
-#header_right a{
-	text-decoration:none;
-	color:#292929;
-}
 
 /*go to top*/
 #go-top{
@@ -344,7 +348,7 @@ h2{
 #illus .image img{
 	margin:5px 0;
 	width:100%;
-	border:#fff 3px solid;
+	/*border:#fff 3px solid;*/
 }
 #illus .image img:hover, #anime img:hover{
 	-webkit-animation:pulse .4s ease forwards;
