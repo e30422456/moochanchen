@@ -122,9 +122,9 @@ html[xmlns] .flexslider .slides {
   height: 40px;
   margin: -20px 0 0;
   position: absolute;
-  top: 50%;
+  top: 60%;
   z-index: 4;
-  overflow: hidden;
+  /*overflow: hidden;*/
   opacity: 0;
   cursor: pointer;
   color: rgba(0, 0, 0, 0.8);
