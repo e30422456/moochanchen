@@ -208,13 +208,7 @@ a:hover{
 	text-align:center;
 	z-index: 10;
 	text-decoration:none;
-	color:#292929;
 }
-#go-top:hover{
-	text-decoration:none;
-	color:#888;
-}
-
 /*top*/
 #logo{
 	width:250px;
