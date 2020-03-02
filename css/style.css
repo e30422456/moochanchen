@@ -415,7 +415,7 @@ footer{
 	visibility:hidden;
  }
 }
-@media (max-width:360px){
+@media (max-width:375px){
  .flex-control-nav{
 	bottom:-80px;
  }
