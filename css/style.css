@@ -310,7 +310,7 @@ h2{
 	background-color:#FFF;
 	word-break:break-all;
 	padding:20px;
-	margin-top:24px;
+	margin:24px auto;
 }
 
 /*separate*/
@@ -395,14 +395,12 @@ footer{
  #djs-slider img{
 	height:20vh;
  } 
+ #djs-carousel .flex-control-nav{
+	bottom:-80px;
+ }
 }
 @media (max-height:450px){
  #header_right{
 	visibility:hidden;
- }
-}
-@media (max-width:375px){
- .flex-control-nav{
-	bottom:-100px;
  }
 }
