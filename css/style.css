@@ -310,6 +310,7 @@ h2{
 	background-color:#FFF;
 	word-break:break-all;
 	padding:20px;
+	margin-top:24px;
 }
 
 /*separate*/
@@ -332,7 +333,7 @@ h2{
 	margin:5px 0;
 	width:100%;
 }
-#illus .image img:hover, #anime img:hover{
+#illus .image img:hover, #anime .image img:hover{
 	-webkit-animation:pulse .4s ease forwards;
 	animation:pulse .4s ease forwards;
 	-webkit-animation-delay:.2s;
@@ -346,7 +347,6 @@ h2{
 #djs-slider .flex-direction-nav, #mi-slider .flex-direction-nav{
 	visibility:hidden;
 }
-
 
 @keyframes pulse{
  from{
@@ -383,9 +383,6 @@ footer{
  }
  #top-container{
 	padding:0;
- }
- .content{
-	margin-top:16px;
  }
  #djs-slider img{
 	height:30vh;
