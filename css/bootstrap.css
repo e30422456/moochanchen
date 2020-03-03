@@ -544,10 +544,10 @@ pre code {
 
 .container {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 @media (min-width: 576px) {
@@ -564,7 +564,7 @@ pre code {
 
 @media (min-width: 992px) {
   .container {
-    max-width: 860px;
+    max-width: 960px;
   }
 }
 
@@ -590,19 +590,22 @@ pre code {
 
 @media (min-width: 768px) {
   .container, .container-sm, .container-md {
-    max-width: 620px;
+    max-width: 720px;
+	padding-right:30px;
   }
 }
 
 @media (min-width: 992px) {
   .container, .container-sm, .container-md, .container-lg {
-    max-width: 860px;
+    max-width: 960px;
+	padding-right:30px;
   }
 }
 
 @media (min-width: 1200px) {
   .container, .container-sm, .container-md, .container-lg, .container-xl {
-    max-width: 1040px;
+    max-width: 1140px;
+	padding-right:30px;
   }
 }
 
