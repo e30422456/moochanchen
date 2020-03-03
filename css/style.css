@@ -347,6 +347,9 @@ h2{
 #djs-slider .flex-direction-nav, #mi-slider .flex-direction-nav{
 	visibility:hidden;
 }
+#fashion .image{
+	margin:24px auto;
+}
 
 @keyframes pulse{
  from{
@@ -397,6 +400,9 @@ footer{
  } 
  #djs-carousel .flex-control-nav{
 	bottom:-80px;
+ }
+ #fashion .image{
+	margin:auto;
  }
 }
 @media (max-height:450px){
