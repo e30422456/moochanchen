@@ -521,7 +521,16 @@ main{
 	width:80%;
 	height:auto;
  }
- 
+ #myVideo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: auto;
+  min-height: 100%;
+}
+#last{
+	width:100%;
+}
 }
 
 /*寬度大於400px*/
