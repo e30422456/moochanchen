@@ -8,7 +8,7 @@ $(function() {
   if($("body").width() <= 768){
       this.scrollTop -= (delta * 100);
   }else if($("body").width() > 768){
-      this.scrollLeft -= (delta * 40);
+      this.scrollLeft -= (delta * 100);
   }
   event.preventDefault();
  });
