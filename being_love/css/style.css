@@ -237,11 +237,13 @@ main{
 	height:100vh;
 	display:table;
 }
-#top{
+.fullpage{
 	width:100%;
 	height: 100vh;
 	display: flex;
 	flex-flow: column;
+}
+#top{
 	background: url("../img/img01.jpg") center center no-repeat;
 	background-size:cover;
 	padding-top:0;
@@ -269,10 +271,6 @@ main{
 }
 /*----------------------------------------------------------------intro*/
 #intro{
-	width:100%;
-	height: 100vh;
-	display: flex;
-	flex-flow: column;
 	background: url("../img/img02.jpg") center center no-repeat;
 	background-size:cover;
 }
