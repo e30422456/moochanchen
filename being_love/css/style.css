@@ -356,24 +356,12 @@ main{
 	width:auto;
 	height:100vh;
 }
-#art_20{
-	width:100%;
-	height: 100vh;
-	display: flex;
-	flex-flow: column;
-}
 #art_201{
 	margin-top:calc(50vh - 8%);
 }
 #art_201 img{
 	width:16%;
 	height:auto;
-}
-#art_21{
-	width:100%;
-	height: 100vh;
-	display: flex;
-	flex-flow: column;
 }
 #art_211{
 	margin-top:calc(50vh - 8%);
@@ -382,24 +370,25 @@ main{
 	width:50%;
 	height:auto;
 }
-#staff{
-	width:100%;
-	height: 100vh;
-	display: flex;
-	flex-flow: column;
-}
 #myVideo {
   position: absolute;
   right: 0;
   bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
+  width:100%;
 }
 #last{
+	width:30%;
+	margin-left:80px;
+	float:left;
+}
+#last2{
+	float:right;
+}
+#art_22{
+	width:98%;
 	position:absolute;
 	right:2%;
 	bottom:2%;
-	width:40%;
 }
 /*----------------------------------------------------------------寬度小於768px*/
 @media (max-width: 768px),(max-height:480px){
@@ -526,13 +515,25 @@ main{
 	width:80%;
 	height:auto;
  }
- #myVideo {
-  height: auto;
-  width:100%;
-
+#art_22{
+	width:98%;
+	position:absolute;
+	right:2%;
+	bottom:2%;
 }
+ #myVideo {
+  height: 100%;
+  width:auto;
+  }
 #last{
-	width:100%;
+	width:90%;
+	margin-left:20px;
+	float:none;
+}
+#last2{
+	width:50%;
+	float:right;
+	margin-right:20px;
 }
 }
 
