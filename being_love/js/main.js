@@ -6,7 +6,7 @@ $(window).load(function(){
 $(function() {
  $("body").mousewheel(function(event, delta) {
   if($("body").width() <= 768){
-      this.scrollTop -= (delta);
+      this.scrollTop -= (delta * 100);
   }else if($("body").width() > 768){
       this.scrollLeft -= (delta * 40);
   }
