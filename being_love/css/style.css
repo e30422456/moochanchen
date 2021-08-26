@@ -371,11 +371,13 @@ main{
 	height:auto;
 }
 #myVideo {
-  position: absolute;
+  position: fixed;
   right: 0;
   bottom: 0;
-  min-width:100vw;
-  min-height:100vh;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
 }
 #last{
 	width:15%;
