@@ -486,8 +486,8 @@ main{
 	width:100%;
  }
  #art31 img{
-	width:50vw;
-	height:auto;
+    width: auto;
+    height: 100vh;
  }
  #art_32,#art_141,#art_142,#art_162{
 	margin-top:20px;
