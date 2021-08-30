@@ -537,10 +537,7 @@ flex-wrap:wrap !important;
 	opacity: 0;
 }
 .fadeIn.is-inview img{
-    -webkit-animation:fadeIn 1.2s ease forwards;
-	animation:fadeIn 1.2s ease forwards;
-	-webkit-animation-delay:.35s;
-	animation-delay:.35s;
+    -webkit-animation:none;
 }
 .fadeInUp img{
 	opacity: 0;
