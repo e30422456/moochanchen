@@ -26,7 +26,7 @@ $('.toggle').click(function() {
 const scroller = new LocomotiveScroll({
   el: document.querySelector('[data-scroll-container]'),
   smooth: true,
-  repeat: false,
+  repeat: true,
   direction:"horizontal",
     tablet: {
       smooth: false,
@@ -35,7 +35,7 @@ const scroller = new LocomotiveScroll({
       breakpoint: 1024
     },
     smartphone: {
-      smooth: false,
+      smooth: true,
       direction: 'vertical',
       gestureDirection: 'vertical'
     }
