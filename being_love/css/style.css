@@ -363,18 +363,14 @@ a:hover{
 body,html{
 	overflow-y:auto;
 	overflow-x:hidden;
-	width:auto;
-	min-height: 100vh;
 }
 .flex-nowrap{
 -ms-flex-wrap:wrap !important;
 flex-wrap:wrap !important;
 }
-[data-scroll-direction="horizontal"] [data-scroll-container] {
-  height: 100vh;
-  display: inline-block;
-  white-space: nowrap; }
-
+.has-scroll-smooth [data-scroll-container] {
+  min-height: 100vh; }
+  
 /*button_container*/
 #button_container{
 	top:23px;
