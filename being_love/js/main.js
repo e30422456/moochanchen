@@ -28,16 +28,14 @@ const scroller = new LocomotiveScroll({
   smooth: true,
   repeat: false,
   reloadOnContextChange: true,
+  resetNativeScroll: false,
   direction:"horizontal",
     tablet: {
       smooth: true,
       direction: 'vertical',
-      gestureDirection: 'vertical',
-      breakpoint: 1024
     },
     smartphone: {
       smooth: true,
       direction: 'vertical',
-      gestureDirection: 'vertical'
     }
 });
