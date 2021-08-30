@@ -31,11 +31,11 @@ const scroller = new LocomotiveScroll({
   resetNativeScroll: false,
   direction:"horizontal",
     tablet: {
-      smooth: true,
+      smooth: false,
       direction: 'vertical',
     },
     smartphone: {
-      smooth: true,
+      smooth: false,
       direction: 'vertical',
     }
 });
