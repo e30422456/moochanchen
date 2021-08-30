@@ -29,13 +29,13 @@ const scroller = new LocomotiveScroll({
   repeat: false,
   direction:"horizontal",
     tablet: {
-      smooth: true,
+      smooth: false,
       direction: 'vertical',
       gestureDirection: 'vertical',
       breakpoint: 1024
     },
     smartphone: {
-      smooth: true,
+      smooth: false,
       direction: 'vertical',
       gestureDirection: 'vertical'
     }
