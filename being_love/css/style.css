@@ -511,6 +511,9 @@ flex-wrap:wrap !important;
 #myVideo{
 	height:100%;
 	width:auto;
+	position: absolute;
+	right: -50%;
+	bottom: 0;
 }
 #staff_1{
 	width:50%;
