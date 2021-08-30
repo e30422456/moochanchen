@@ -370,6 +370,10 @@ body,html{
 -ms-flex-wrap:wrap !important;
 flex-wrap:wrap !important;
 }
+[data-scroll-direction="horizontal"] [data-scroll-container] {
+  height: 100vh;
+  display: inline-block;
+  white-space: nowrap; }
 
 /*button_container*/
 #button_container{
