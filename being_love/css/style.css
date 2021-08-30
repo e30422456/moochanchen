@@ -578,12 +578,12 @@ flex-wrap:wrap !important;
 	-webkit-animation-delay:.35s;
 	animation-delay:.35s;
 }
-.zoomIn img{
+/*.zoomIn img{
 	opacity: 0;
 }
 .zoomIn.is-inview img{
- 	-webkit-animation:zoomIn 1.2s ease forwards;
-	animation:zoomIn 1.2s ease forwards;
+ 	-webkit-animation:zoomIn 1.2s ease;
+	animation:zoomIn 1.2s ease;
 	-webkit-animation-delay:.35s;
 	animation-delay:.35s;
-}
+}*/
