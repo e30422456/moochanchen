@@ -30,6 +30,7 @@ const scroller = new LocomotiveScroll({
   direction:"horizontal",
     tablet: {
       smooth: true,
+	  repeat: true,
       direction: 'vertical',
       gestureDirection: 'vertical',
       breakpoint: 1024
