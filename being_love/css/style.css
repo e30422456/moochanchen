@@ -363,6 +363,8 @@ a:hover{
 body,html{
 	overflow-y:auto;
 	overflow-x:hidden;
+	width:auto;
+	min-height: 100vh;
 }
 .flex-nowrap{
 -ms-flex-wrap:wrap !important;
