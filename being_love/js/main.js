@@ -36,5 +36,3 @@ const scroller = new LocomotiveScroll({
       direction: 'vertical',
     }
 });
-scroller.update();
-});
