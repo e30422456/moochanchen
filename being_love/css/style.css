@@ -6,8 +6,6 @@ body,html{
 	background:#000;
 	font-size:11px;
 	line-height:20px;
-	overflow-y:hidden;
-	overflow-x:auto;
 }
 a{
 	text-decoration:underline;
@@ -359,10 +357,7 @@ a:hover{
 
 /*寬度小於768px*/
 @media (max-width: 768px),(max-height:480px){
-body,html{
-	overflow-y:auto;
-	overflow-x:hidden;
-}
+
 .flex-nowrap{
 -ms-flex-wrap:wrap !important;
 flex-wrap:wrap !important;
