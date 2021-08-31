@@ -594,55 +594,45 @@ flex-wrap:wrap !important;
 
 @media (max-width: 768px),(max-height:480px){
 .fadeIn img{
-	opacity: 0;
+	opacity: 1;
 }
 .fadeIn.is-inview img{
-	opacity: 1;
-	transition: opacity 1.2s cubic-bezier(.215,.61,.355,1);
+    -webkit-animation:none;
+    animation:none;
 }
 .fadeInUp img{
-	opacity: 0;
-	transform:translate3d(0, 20%, 0);
+	opacity: 1;
 }
 .fadeInUp.is-inview img{
- 	opacity: 1;
-	transform:translate3d(0, 0, 0);
-	transition: opacity 1.2s cubic-bezier(.215,.61,.355,1),transform 1.2s cubic-bezier(.215,.61,.355,1);
+    -webkit-animation:none;
+    animation:none;
 }
 .fadeInDown img{
-	opacity: 0;
-	transform:translate3d(0, -20%, 0);
+	opacity: 1;
 }
 .fadeInDown.is-inview img{
- 	opacity: 1;
-	transform:translate3d(0, 0, 0);
-	transition: opacity 1.2s cubic-bezier(.215,.61,.355,1),transform 1.2s cubic-bezier(.215,.61,.355,1);
+    -webkit-animation:none;
+    animation:none;
 }
 .fadeInRight img{
-	opacity: 0;
-	transform:translate3d(-20%, 0, 0);
+	opacity: 1;
 }
 .fadeInRight.is-inview img{
- 	opacity: 1;
-	transform:translate3d(0, 0, 0);
-	transition: opacity 1.2s cubic-bezier(.215,.61,.355,1),transform 1.2s cubic-bezier(.215,.61,.355,1);
+    -webkit-animation:none;
+    animation:none;
 }
 .fadeInLeft img{
-	opacity: 0;
-	transform:translate3d(20%, 0, 0);
+	opacity: 1;
 }
 .fadeInLeft.is-inview img{
- 	opacity: 1;
-	transform:translate3d(0, 0, 0);
-	transition: opacity 1.2s cubic-bezier(.215,.61,.355,1),transform 1.2s cubic-bezier(.215,.61,.355,1);
+    -webkit-animation:none;
+    animation:none;
 }
 .zoomIn img{
-	opacity: 0;
-	transform:scale3d(.8, .8, .8);
+	opacity: 1;
 }
 .zoomIn.is-inview img{
- 	opacity: 1;
-	transform:scale3d(1, 1, 1);
-	transition: opacity 1.2s cubic-bezier(.215,.61,.355,1),transform 1.2s cubic-bezier(.215,.61,.355,1);
+    -webkit-animation:none;
+    animation:none;
 }
 }
