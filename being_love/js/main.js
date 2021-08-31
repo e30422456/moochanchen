@@ -27,15 +27,14 @@ const scroller = new LocomotiveScroll({
   el: document.querySelector('[data-scroll-container]'),
   smooth: true,
   repeat: false,
-  reloadOnContextChange: true,
-  resetNativeScroll: false,
+  resetNativeScroll: true,
   direction:"horizontal",
     tablet: {
-      smooth: true,
+      smooth: false,
       direction: 'vertical',
     },
     smartphone: {
-      smooth: true,
+      smooth: false,
       direction: 'vertical',
     }
 });
