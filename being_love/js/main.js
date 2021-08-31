@@ -45,15 +45,15 @@ window.addEventListener('resize', () => {
 
 	if (currentWidth > breakpoint) {
 		let ldirection = 'horizontal';
-		lscroll.destroy();
-		lscroll.init();
+		scroller.destroy();
+		scroller.init();
 	}
 
 	else {
 		let ldirection = 'vertical';
-		lscroll.destroy();
-		lscroll.init();
+		scroller.destroy();
+		scroller.init();
 	}
 
-	lscroll.update();
+	scroller.update();
 });
