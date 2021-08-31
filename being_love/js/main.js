@@ -23,12 +23,11 @@ $('.toggle').click(function() {
 });
 
 //LocomotiveScroll
+let ldirection = 'horizontal';
 const scroller = new LocomotiveScroll({
   el: document.querySelector('[data-scroll-container]'),
   smooth: true,
-  repeat: false,
-  resetNativeScroll: true,
-  direction:"horizontal",
+  direction:ldirection,
     tablet: {
       smooth: true,
       direction: 'vertical',
@@ -45,16 +44,16 @@ window.addEventListener('resize', () => {
 	let currentWidth = window.innerWidth;
 
 	if (currentWidth > breakpoint) {
-		let scroller = 'horizontal';
-		scroller.destroy();
-		scroller.init();
+		let ldirection = 'horizontal';
+		lscroll.destroy();
+		lscroll.init();
 	}
 
 	else {
-		let scroller = 'vertical';
-		scroller.destroy();
-		scroller.init();
+		let ldirection = 'vertical';
+		lscroll.destroy();
+		lscroll.init();
 	}
 
-	scroller.update();
+	lscroll.update();
 });
