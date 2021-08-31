@@ -1,7 +1,7 @@
 //loading
-$(window).load(function(){
-        $('#loading').delay(500).fadeOut(3000);
-        });
+//$(window).load(function(){
+ //       $('#loading').delay(500).fadeOut(3000);
+  //      });
 
 //scroll left and top
 /*$(function() {
@@ -23,11 +23,10 @@ $('.toggle').click(function() {
 });
 
 //LocomotiveScroll
-let ldirection = 'horizontal';
 const scroller = new LocomotiveScroll({
   el: document.querySelector('[data-scroll-container]'),
   smooth: true,
-  direction:ldirection,
+  direction:'horizontal',
     tablet: {
       smooth: true,
       direction: 'vertical',
@@ -37,23 +36,5 @@ const scroller = new LocomotiveScroll({
       direction: 'vertical',
     }
 });
-
-window.addEventListener('resize', () => {
-
-	let breakpoint = 1024;
-	let currentWidth = window.innerWidth;
-
-	if (currentWidth > breakpoint) {
-		let ldirection = 'horizontal';
-		scroller.destroy();
-		scroller.init();
-	}
-
-	else {
-		let ldirection = 'vertical';
-		scroller.destroy();
-		scroller.init();
-	}
-
-	scroller.update();
+scroller.update();
 });
