@@ -39,3 +39,23 @@ const scroller = new LocomotiveScroll({
       direction: 'vertical',
     }
 });
+
+window.addEventListener('resize', () => {
+
+	let breakpoint = 1024;
+	let currentWidth = window.innerWidth;
+
+	if (currentWidth > breakpoint) {
+		let scroller = 'horizontal';
+		scroller.destroy();
+		scroller.init();
+	}
+
+	else {
+		let scroller = 'vertical';
+		scroller.destroy();
+		scroller.init();
+	}
+
+	scroller.update();
+});
