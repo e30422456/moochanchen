@@ -36,3 +36,6 @@ const scroller = new LocomotiveScroll({
       direction: 'vertical',
     }
 });
+
+ scroller.destroy();
+ scroller.init();
