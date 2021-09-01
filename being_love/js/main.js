@@ -1,7 +1,7 @@
 //loading
-//$(window).load(function(){
- //       $('#loading').delay(500).fadeOut(3000);
-  //      });
+$(window).load(function(){
+      $('#loading').delay(500).fadeOut(3000);
+      });
 
 //scroll left and top
 /*$(function() {
