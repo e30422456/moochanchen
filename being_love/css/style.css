@@ -594,7 +594,7 @@ flex-wrap:wrap !important;
 	animation-delay:.35s;
 }
 
-@media (max-width: 768px),(max-height:480px){
+/*@media (max-width: 768px),(max-height:480px){
 .fadeIn img{
 	opacity: 1;
 }
@@ -637,4 +637,4 @@ flex-wrap:wrap !important;
     -webkit-animation:none;
     animation:none;
 }
-}
+}*/
