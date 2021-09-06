@@ -37,5 +37,7 @@ const scroller = new LocomotiveScroll({
     }
 });
 
- scroller.destroy();
- scroller.init();
+scroller.init();
+scroller.update();
+scroller.start();
+
