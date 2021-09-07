@@ -32,7 +32,7 @@ const scroller = new LocomotiveScroll({
       direction: 'vertical',
     },
     smartphone: {
-      smooth: true,
+      smooth: false,
       direction: 'vertical',
     }
 });
