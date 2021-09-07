@@ -39,3 +39,4 @@ const scroller = new LocomotiveScroll({
 
  scroller.destroy();
  scroller.init();
+ scroller.start();
