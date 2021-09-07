@@ -6,8 +6,6 @@ body,html{
 	background:#000;
 	font-size:11px;
 	line-height:20px;
-	overflow-y:hidden;
-	overflow-x:auto;
 }
 a{
 	text-decoration:underline;
@@ -359,18 +357,13 @@ a:hover{
 
 /*寬度小於768px*/
 @media (max-width: 768px),(max-height:480px){
-body,html{
-	overflow-y:auto;
-	overflow-x:hidden;
-}
 
 .flex-nowrap{
 -ms-flex-wrap:wrap !important;
 flex-wrap:wrap !important;
 }
 .has-scroll-smooth [data-scroll-container] {
-  min-height: 100vh;
-}
+  min-height: 100vh; }
   
 /*button_container*/
 #button_container{
@@ -594,7 +587,7 @@ flex-wrap:wrap !important;
 	animation-delay:.35s;
 }
 
-/*@media (max-width: 768px),(max-height:480px){
+@media (max-width: 768px),(max-height:480px){
 .fadeIn img{
 	opacity: 1;
 }
@@ -637,4 +630,4 @@ flex-wrap:wrap !important;
     -webkit-animation:none;
     animation:none;
 }
-}*/
+}
