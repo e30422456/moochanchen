@@ -388,6 +388,28 @@ a:hover{
 	background:url("../img/23bg.jpg") center center no-repeat;
 	background-size:cover;
 }
+
+/*evalin*/
+
+.fade.in {
+      opacity: 1;
+   }
+.modal.in.modal-dialog {
+ -webkit-transform: translate(0, 0);
+      -o-transform: translate(0, 0);
+         transform: translate(0, 0);
+   }
+.modal-backdrop.in {
+ opacity: 0.5;
+}
+#myBtn {
+    width: 100%;
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
 /*--------------------------------------------------------------------寬度小於768px*/
 @media (max-width: 768px),(max-height:480px){
 
@@ -549,9 +571,8 @@ flex-wrap:wrap !important;
 }
 #ending{
 	padding-top:100px;
-	}
 }
-
+}
 /*寬度大於400px*/
 @media (max-width: 360px){
 #logo{
