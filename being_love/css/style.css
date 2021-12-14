@@ -215,7 +215,37 @@ a:hover{
 	line-height:40px;
 }
 
+/*fix animate*/
+@-webkit-keyframes zoomIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(.8, .8, .8);
+    transform: scale3d(.8, .8, .8);
+  }
 
+  to {
+    opacity: 1;
+	-webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(.8, .8, .8);
+    transform: scale3d(.8, .8, .8);
+  }
+
+  to {
+    opacity: 1;
+	-webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+.animate__zoomIn {
+  -webkit-animation-name: zoomIn;
+  animation-name: zoomIn;
+}
 /*content all*/
 .fullpage{
 	width:100%;
@@ -293,7 +323,7 @@ a:hover{
 	width:40%;
 }
 
-#work03 img, #work142 img, #work161 img, #work17 img, #work18 img{
+#work03 img, #work142 img, #work161 img, #work17 img, #work18 img ,#ending img{
 	width:auto;
 	height:100vh;
 }
@@ -354,8 +384,11 @@ a:hover{
 	right:2%;
 	bottom:3%;
 }
-
-/*寬度小於768px*/
+.ending{
+	background:url("../img/23bg.jpg") center center no-repeat;
+	background-size:cover;
+}
+/*--------------------------------------------------------------------寬度小於768px*/
 @media (max-width: 768px),(max-height:480px){
 
 .flex-nowrap{
@@ -464,11 +497,11 @@ flex-wrap:wrap !important;
 	bottom:0;
 	width:100%;
 }
-#work03 img,#work08 img, #work142 img{
+#work03 img, #work142 img{
 	width:auto;
 	height:60vh;
 }
-#work04 img, #work05 img, #work07 img, #work09 img, #work15 img, #work18 img{
+#work04 img, #work05 img, #work07 img, #work08 img,#work09 img, #work15 img, #work161 img,#work18 img ,#ending img{
 	width:100vw;
 	height:auto;
 }
@@ -476,10 +509,6 @@ flex-wrap:wrap !important;
 	height:auto;
 	padding-top:20px;
 	padding-bottom:20px;
-}
-#work161 img{
-	width:auto;
-	height:90vh;
 }
 #work162 img{
 	margin-top:20px;
@@ -518,6 +547,8 @@ flex-wrap:wrap !important;
 	right:0;
 	bottom:0;
 }
+#ending{
+	padding-top:100px;
 }
 
 /*寬度大於400px*/
