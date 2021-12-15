@@ -334,7 +334,7 @@ a:hover{
 	width:55vw;
 	height:auto;
 }
-#work06 img, #work10 img, #work11 img, #work13 img ,#ending img{
+#work06 img, #work10 img, #work11 img, #work13 img {
 	width:100vw;
 	height:auto;
 }
@@ -388,7 +388,10 @@ a:hover{
 	background:url("../img/23bg.jpg") center center no-repeat;
 	background-size:cover;
 }
-
+#ending img{
+	width:50vh;
+	height:auto;
+}
 /*evalin*/
 
 .fade.in {
