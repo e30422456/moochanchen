@@ -323,7 +323,7 @@ a:hover{
 	width:40%;
 }
 
-#work03 img, #work142 img, #work161 img, #work17 img, #work18 img ,#ending img{
+#work03 img, #work142 img, #work161 img, #work17 img, #work18 img{
 	width:auto;
 	height:100vh;
 }
@@ -334,7 +334,7 @@ a:hover{
 	width:55vw;
 	height:auto;
 }
-#work06 img, #work10 img, #work11 img, #work13 img{
+#work06 img, #work10 img, #work11 img, #work13 img ,#ending img{
 	width:100vw;
 	height:auto;
 }
